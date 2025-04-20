@@ -1,0 +1,40 @@
+# Dependency
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage reports
+coverage/
+
+# Database local (jika pakai file-based)
+*.sqlite
+*.db
+*.local.db
+
+# Production secrets atau temp
+.secret
+temp/
