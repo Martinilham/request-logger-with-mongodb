@@ -3,6 +3,7 @@
 Track IP address, HTTP methods, endpoints, users, and device information — perfect for API monitoring and debugging.
 
 ## ✨ Features
+
 ✅ Log every HTTP request into MongoDB
 ✅ Detect real client IP address (even behind proxies)
 ✅ Log HTTP method & endpoint
@@ -27,6 +28,7 @@ npm install
 }
 ```
 ## ⚡ Dependencies
+
 express — 🌐 Fast and minimal web framework.
 mongoose — 💾 MongoDB object modeling for Node.js.
 ua-parser-js — 📱 Detect device, OS, and browser from User-Agent.
